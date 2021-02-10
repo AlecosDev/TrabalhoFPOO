@@ -66,17 +66,12 @@ public class Aluno {
 	}
 	
 	public void getIdade() {
-		
-	}
+		return ;
+	}      
 	
 	public double getIMC() {
 		return peso/(Math.pow(this.altura, 2));
 	}
 	
 	
-	public double getNCD() {
-		if(idade > 59 && sexo == m || sexo == M) {
-			caloriasDiarias = 13.5 * peso + 487;
-		}
-	}
 }
